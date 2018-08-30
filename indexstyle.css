@@ -36,15 +36,10 @@ figure.profile {
   border: 8px solid white;
   box-shadow: 1px 1px 20px black;
   width: 240px;
-  height: 380px;
+  height: 370px;
 }
 
 figure.profile figcaption img {
-  width: 57px;
-  height: 57px;
-}
-
-figure.profile figcaption h1 {
-  width: 110%;
-  height: 110%;
+  width: 56px;
+  height: 56px;
 }
