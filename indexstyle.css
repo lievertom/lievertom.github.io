@@ -33,7 +33,13 @@ ul.topnav li.right {float: right;}
 /* perfil*/
 
 figure.profile {
-  border: 8px solid black;
+  border: 8px solid white;
+  box-shadow: 1px 1px 20px black;
   width: 240px;
   height: 380px;
+}
+
+figure.profile figcaption img {
+  width: 57px;
+  height: 57px;
 }
