@@ -43,3 +43,8 @@ figure.profile figcaption img {
   width: 57px;
   height: 57px;
 }
+
+figure.profile figcaption h1 {
+  width: 100%;
+  height: 100%;
+}
