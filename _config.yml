@@ -1,0 +1,36 @@
+# Site settings
+title: Lieverton Silva
+description: 'Business Card Page'
+url: 'https://lievertom.github.io/'
+baseurl: ''
+profilepic: '/images/p.jpeg'
+bkimage: '/images/bk1.jpg'
+google_analytics: UA-XXXXXX-X
+font_awesome: 'XXXXXXXXXX.js'
+
+author:
+  name: 'Lieverton Silva'
+  email: lievertom@gmail.com
+  # twitter_username: 
+  facebook_username: lievertom
+  github_username:  lievertom
+  linkedin_username:  lieverton-santos-b1173416b
+  instagram_username: lievertonsantos
+
+# Build settings
+destination: _site
+markdown: kramdown
+highlighter: rouge
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+#plugins: ['jekyll-paginate']
+exclude: ['README.md', 'screenshot-overview.png']
